@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Gokul S Nair's student and web development portfolio." />
+    <title>Gokul S Nair | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>tailwind.config = { theme: { extend: { fontFamily: { sans: ["DM Sans", "sans-serif"], display: ["Playfair Display", "serif"] } } } };</script>
+  </head>
+  <body id="home" class="bg-stone-50 font-sans text-gray-800">
+    <nav class="navbar sticky-top border-bottom bg-light">
+      <div class="container py-2">
+        <a class="navbar-brand fw-bold font-display text-success transition-all duration-300 hover:scale-105 hover:tracking-wider" href="#home">GOKUL S NAIR<span class="text-warning animate-pulse">.</span></a>
+        <details class="d-md-none position-relative">
+          <summary class="btn btn-outline-success">Menu</summary>
+          <div class="position-absolute top-100 end-0 z-1 d-grid gap-2 p-3 bg-white shadow rounded">
+            <a class="rounded px-2 py-1 text-dark text-decoration-none transition-all duration-200 hover:bg-green-50 hover:font-bold hover:text-green-800" href="#about">About</a><a class="rounded px-2 py-1 text-dark text-decoration-none transition-all duration-200 hover:bg-green-50 hover:font-bold hover:text-green-800" href="#skills">Skills</a>
+            <a class="rounded px-2 py-1 text-dark text-decoration-none transition-all duration-200 hover:bg-green-50 hover:font-bold hover:text-green-800" href="#projects">Projects</a><a class="rounded px-2 py-1 text-dark text-decoration-none transition-all duration-200 hover:bg-green-50 hover:font-bold hover:text-green-800" href="#contact">Contact</a>
+          </div>
+        </details>
+        <div class="d-none d-md-flex gap-4">
+          <a class="nav-link transition-all duration-200 hover:-translate-y-1 hover:font-bold hover:text-green-800 hover:underline hover:underline-offset-8" href="#about">About</a><a class="nav-link transition-all duration-200 hover:-translate-y-1 hover:font-bold hover:text-green-800 hover:underline hover:underline-offset-8" href="#skills">Skills</a>
+          <a class="nav-link transition-all duration-200 hover:-translate-y-1 hover:font-bold hover:text-green-800 hover:underline hover:underline-offset-8" href="#projects">Projects</a>
+          <a class="nav-link transition-all duration-200 hover:-translate-y-1 hover:font-bold hover:text-green-800 hover:underline hover:underline-offset-8" href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="container py-5">
+        <div class="row align-items-center g-4">
+        <div class="col-md-6">
+          <p class="mb-3 inline-flex items-center gap-2 rounded-pill bg-success-subtle px-3 py-2 text-xs font-bold uppercase tracking-widest text-success shadow-sm"><span class="h-2 w-2 animate-pulse rounded-full bg-success"></span>Student · Aspiring Developer</p>
+          <h1 class="display-2 fw-semibold font-display tracking-tight text-success transition-all duration-300 hover:tracking-normal">Hi, I’m Gokul S Nair<span class="text-warning animate-pulse">.</span></h1>
+          <p class="lead text-secondary my-4">I’m passionate about learning new technologies, creating useful projects, and turning ideas into reality.</p>
+          <a class="btn btn-success rounded-pill px-4 py-2 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg" href="#projects">Explore projects</a>
+          <a class="ms-3 text-decoration-none text-success transition-all hover:font-bold" href="#contact">Contact me ↗</a>
+          </div>
+          <div class="col-md-6">
+          <div class="group position-relative h-80 overflow-hidden rounded-4 bg-success-subtle shadow md:h-96">
+            <img class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" src="./images/mine.jpeg" alt="img">
+            <span class="position-absolute bottom-0 end-0 m-3 badge rounded-pill bg-white text-danger px-3 py-2 animate-pulse">Gokul S Nair</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="py-5 bg-success-subtle">
+        <div class="container">
+          <p class="text-success fw-bold mb-2">About</p>
+          <div class="row g-4 align-items-start">
+            <div class="col-md-4"><h2 class="display-5 font-display fw-bold">About me</h2></div>
+            <div class="col-md-8"><p class="mb-0 fs-5 lh-lg text-secondary">I’m a student interested in technology, creativity, and continuous learning. I’m developing my skills through education and personal projects, and enjoy making websites that are useful and easy to explore.</p></div>
+          </div>
+          <div class="row g-3 mt-4">
+            <div class="col-md-4"><article class="group card h-100 border-0 shadow-sm p-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"><span class="text-success fw-bold">01</span><h3 class="h4 mt-2 font-display transition-all group-hover:font-bold">Curious learner</h3><p class="mb-0 text-secondary">Building my skills through education and practice.</p></article></div>
+            <div class="col-md-4"><article class="group card h-100 border-0 shadow-sm p-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"><span class="text-success fw-bold">02</span><h3 class="h4 mt-2 font-display transition-all group-hover:font-bold">Creative thinker</h3><p class="mb-0 text-secondary">Turning ideas into clear, responsive web pages.</p></article></div>
+            <div class="col-md-4"><article class="group card h-100 border-0 shadow-sm p-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"><span class="text-success fw-bold">03</span><h3 class="h4 mt-2 font-display transition-all group-hover:font-bold">Future focused</h3><p class="mb-0 text-secondary">Growing toward a career in web development.</p></article></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="container py-5">
+        <p class="text-success fw-bold mb-2">Skills</p><h2 class="display-5 font-display">Things I’m learning</h2>
+        <div class="d-flex flex-wrap gap-2 mt-4">
+          <span class="badge rounded-pill bg-success-subtle text-success px-3 py-2 transition-all duration-200 hover:-translate-y-1 hover:bg-green-800 hover:text-white hover:shadow-md">HTML</span><span class="badge rounded-pill bg-success-subtle text-success px-3 py-2 transition-all duration-200 hover:-translate-y-1 hover:bg-green-800 hover:text-white hover:shadow-md">CSS</span><span class="badge rounded-pill bg-success-subtle text-success px-3 py-2 transition-all duration-200 hover:-translate-y-1 hover:bg-green-800 hover:text-white hover:shadow-md">Bootstrap</span>
+          <span class="badge rounded-pill bg-success-subtle text-success px-3 py-2 transition-all duration-200 hover:-translate-y-1 hover:bg-green-800 hover:text-white hover:shadow-md">Tailwind</span><span class="badge rounded-pill bg-success-subtle text-success px-3 py-2 transition-all duration-200 hover:-translate-y-1 hover:bg-green-800 hover:text-white hover:shadow-md">Responsive design</span><span class="badge rounded-pill bg-success-subtle text-success px-3 py-2 transition-all duration-200 hover:-translate-y-1 hover:bg-green-800 hover:text-white hover:shadow-md">JavaScript</span>
+        </div>
+      </section>
+
+      <section id="projects" class="py-5 bg-success-subtle">
+        <div class="container">
+          <p class="text-success fw-bold mb-2">Featured work</p><h2 class="display-5 font-display">Projects</h2>
+          <p class="text-secondary">A few projects I’ve worked on or plan to build.</p>
+          <div class="row g-3 mt-3">
+            <div class="col-md-6 col-lg-4"><article class="group card d-flex h-100 flex-column border-0 shadow-sm p-3 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"><div class="overflow-hidden rounded mb-3 bg-success-subtle"><img class="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105" src="https://img.magnific.com/premium-photo/modern-home-furniture-interior_1260882-18168.jpg?semt=ais_hybrid&w=740&q=80" alt="Modern furniture interior"></div><h3 class="h4 font-display transition-all group-hover:font-bold">Furniture Website</h3><p class="mb-3 text-secondary">A project showing my creativity and what I’ve learned.</p><div class="mt-auto d-flex flex-wrap align-items-center justify-content-between gap-2"><span class="badge rounded-pill bg-success-subtle text-success">HTML · CSS</span><a class="btn btn-outline-success rounded-pill px-3 py-1 transition-all duration-300 hover:-translate-y-1 hover:bg-green-800 hover:text-white" href="https://predator-12.github.io/FURNITURE/" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></article></div>
+            <div class="col-md-6 col-lg-4"><article class="group card d-flex h-100 flex-column border-0 shadow-sm p-3 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"><div class="overflow-hidden rounded mb-3 bg-success-subtle"><img class="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105" src="https://www.thetamarindtree.in/wp-content/uploads/2024/07/440409630_18004813850525635_2145334013421209992_n.jpg" alt="Event venue"></div><h3 class="h4 font-display transition-all group-hover:font-bold">Event Management Website</h3><p class="mb-3 text-secondary">A project showing my creativity and what I’ve learned.</p><div class="mt-auto d-flex flex-wrap align-items-center justify-content-between gap-2"><span class="badge rounded-pill bg-success-subtle text-success">HTML · CSS · Bootstrap</span><a class="btn btn-outline-success rounded-pill px-3 py-1 transition-all duration-300 hover:-translate-y-1 hover:bg-green-800 hover:text-white" href=" https://predator-12.github.io/eventmanagement/" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></article></div>
+            <div class="col-md-6 col-lg-4"><article class="group card d-flex h-100 flex-column border-0 shadow-sm p-3 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"><div class="overflow-hidden rounded mb-3 bg-success-subtle"><img class="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9_7_hsAq_JbzRY9Eab3t4QnVGuc8dG4vUqUOuDP0bdcQXHrkBq-QWna0&s=10" alt="Scenic destination"></div><h3 class="h4 font-display transition-all group-hover:font-bold">Tourism Website</h3><p class="mb-3 text-secondary">A project showing my creativity and what I’ve learned.</p><div class="mt-auto d-flex flex-wrap align-items-center justify-content-between gap-2"><span class="badge rounded-pill bg-success-subtle text-success">HTML · Tailwind</span><a class="btn btn-outline-success rounded-pill px-3 py-1 transition-all duration-300 hover:-translate-y-1 hover:bg-green-800 hover:text-white" href=" https://predator-12.github.io/Tourism/" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></article></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="py-5 bg-emerald-100 text-green-900">
+        <div class="container d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-4">
+          <div><p class="text-success fw-bold mb-2">Contact</p><h2 class="display-5 font-display fw-bold text-green-900">Let’s connect</h2><p class="mb-0">Open to learning opportunities, collaborations, and new ideas.</p></div>
+          <div><a class="btn btn-success rounded-pill px-4 py-2 transition-all duration-300 hover:-translate-y-1 hover:bg-green-800 hover:shadow-lg" href="mailto:andrewsalbin6@gmail.com">Email me</a><div class="mt-3 d-flex flex-wrap gap-2"><a class="inline-block rounded-pill border border-success px-3 py-2 text-green-900 text-decoration-none transition-all duration-300 hover:-translate-y-1 hover:bg-green-800 hover:text-white hover:shadow-md" href="https://www.instagram.com/go_ku_l_sachu?vrfl=MThibmY1bjg4NHAyZQ==">Instagram ↗</a><a class="inline-block rounded-pill border border-success px-3 py-2 text-green-900 text-decoration-none transition-all duration-300 hover:-translate-y-1 hover:bg-green-800 hover:text-white hover:shadow-md" href="sachugokul230@gmail.com">Email ↗</a><a class="inline-block rounded-pill border border-success px-3 py-2 text-green-900 text-decoration-none transition-all duration-300 hover:-translate-y-1 hover:bg-green-800 hover:text-white hover:shadow-md" href="https://github.com/predator-12">GitHub ↗</a></div></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-4 text-center text-secondary">
+      <small>© 2026 Gokul S Nair. </small>
+      <a class="btn btn-success rounded-pill px-3 py-2 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg" href="#home">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
